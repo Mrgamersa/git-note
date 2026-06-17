@@ -1,0 +1,67 @@
+                                                           GIT INIT MODEL
+
+-To start a new project ==>  git init
+-To contribute someone's ==> git clone
+-To show the files where we ==> dir
+-To enter something in our place ==> cd (file name)
+-To came home ==> cd $HOME
+
+*We can git init with file or without file
+*We cant see anything here 
+
+-To see the hidden things in this folder ==> dir -a
+-To make a file ==> touch (file name)  eg: touch index.html
+-To see which file linked ==> git status      ----in red colour
+-To add the into git ==> git add (file name)       ----in green colour
+-To add a message about the file ==> git commit -m "Message what you want"
+-First time we are entering to git apply this for know who you are ==> git config --global user.email "you@example.com"
+                                                                       git config --global user.name "Your Name"
+
+*Tree clean means it is done
+
+*then make any change in the code then git status will say it is modified
+
+-To save the modify ==> git add (file name)
+
+*Give another commit message again the modified file show in the message what we typed
+
+-To know what we done ==> git log
+-To come the previous time commit a long id which you want copy and paste after ==> git checkout (that specific id which commit you want)
+-If we select previous one then we type git log but we cant see the last one to see all ==> git log --all
+
+*in which commit we are there will be head in a bracket
+*if the master and head is in different place we can checkout with the bracket value instead of the id
+
+-To add files more than one ==> git add --all
+-To make a branch ==> git branch (branch name)    this branch will create in where we are
+-To switch into the specific branch ==> git checkout (branch name)
+-To add without name if the file is modified last time and we check it ==> git add .
+
+*After commit it we now reached the new branch
+
+-For merge branch ==> git merge (branch name)  -- to head and master come to our new branch -- FAST FORWARD MERGE
+-To know in which branch we are ==> git branch   --the branch in green is the branch where we are
+-To know what is the last difference you make in a file from so many files is ==> git diff  
+-To delete what we modify last before commit is ==> git stash
+
+**To see stashed or deleted things in a file or file by the command git log all
+
+-To get a graph of our code and switching commit ==> git log --all --decorate --graph
+
+**if we want to merge branch2 into branch1 so then first we want to enter in branch1
+
+*Come to master branch and merge it
+
+*Then first press 'i' and give the message then click 'Esc' button and press ==> :wq    ------recursive merge
+
+*when we work with someone and they type another for the file we are also type another then merge is not possible so came message for which one do you want
+
+*If we want both then remove the instruction option and add and commit  -----this problem is known as conflict
+
+-Before adding GitHub link add remote is ==> git remote add (remote name as you like) GitHub link we copied from GitHub
+
+-To know which are the remove we make ==> git remote
+
+-To know which are the links ==> git remote -v
+
+-To save the code in GitHub ==> git push (remote name we want save) (which branch we want to save)
