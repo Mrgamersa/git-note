@@ -58,10 +58,21 @@
 
 *If we want both then remove the instruction option and add and commit  -----this problem is known as conflict
 
--Before adding GitHub link add remote is ==> git remote add (remote name as you like) GitHub link we copied from GitHub
+-Before adding GitHub link add remote is ==> git remote add (remote name as you like) (GitHub link we copied from GitHub)
 
 -To know which are the remove we make ==> git remote
 
 -To know which are the links ==> git remote -v
 
 -To save the code in GitHub ==> git push (remote name we want save) (which branch we want to save)
+
+                                                        GIT CLONE MODEL
+
+*First copy the link of the project from GitHub 
+*Came out from every coding project
+
+-To come out from the everything in git ==> cd ..
+-Then clone the website ==> git clone (paste the link copied from the project)
+-Then enter to the project ==> cd (name of the project shown in the git code eg:datewithgit)
+
+**If we clone any file repository its remote name is a default name it is --> origin 
