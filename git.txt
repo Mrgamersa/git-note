@@ -76,3 +76,23 @@
 -Then enter to the project ==> cd (name of the project shown in the git code eg:datewithgit)
 
 **If we clone any file repository its remote name is a default name it is --> origin 
+
+                                                      GIT PROJECT SHARING
+
+***To share projects - take the project - go to settings - collaboration - add peoples - search and send - accept through email connected with GitHub 
+
+*clone the project and change the email and name
+*go to  the file and work
+*git fetch is used for origin (origin is default remote name) master branch 
+*git pull is fetch + merge so it is better
+*After work before submitting we want to know any change is done by others
+**checkout to branch master
+
+-To know any change is happened ==> git pull
+
+**If we make a another branch for our works 
+**Then git checkout into the new branch 
+**Then merge master to get the new codes modified by the another coders in git 
+*Then commit
+
+*If you made a new branch then the owner of the project want to create a pull request then others can comment and accept or decline the pull request
