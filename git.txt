@@ -94,16 +94,39 @@
 **Then git checkout into the new branch 
 **Then merge master to get the new codes modified by the another coders in git 
 *Then commit
-
 *If you made a new branch then the owner of the project want to create a pull request then others can comment and accept or decline the pull request
 
                                                       CONTRIBUTE IN A OPEN SOURCE PROJECT
 
 *Search project name or what you want
 *Then search by clicking on all GitHub
-**Click on fork 
+**Click on fork
 **Copy the clone link
 **paste in git bash
 *Then do what we done in git clone
 *After someone pulling his contribution
-*Then owner of this project want to do a pull request 
+*Then owner of this project want to do a pull request
+
+                                                    SOME BASIC COMMANDS IN GITHUB
+
+                                                      GIT IGNORE , SPONSERSHIP
+
+-To remove anything from a file of saving to GitHub is(To create and add into gitignore) ==> vim .gitignore
+
+*Then come a terminal there we want to type which sub folder we want to remove from the pushing to the git under the first default word (eg : /then type)
+*Then come out from the file by typing :wq
+*Then git add and give a commit
+*If we have anything to add into gitignore then use vim .gitignore and then give the file which want to ignore
+
+*If we make any modification in the already ignored file then that modification never we can see in the git status file
+
+*If we see any problem then we can say it through a new issues 
+
+**If we want sponsors in github open source project then go to settings -> sponsorship -> change custome link into the link you have to pay money then commit change
+
+                                                                          GIST
+
+*gist is a place where we can note down something for our future projects or for works 
+**To get gist plus icon -> new gist -> plus icon for a new gist -> give name -> give file name (like index.html) -> type content -> submit publically or secretly
+
+***We can make make to-do list like coloumns in github by using projects
