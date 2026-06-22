@@ -96,3 +96,14 @@
 *Then commit
 
 *If you made a new branch then the owner of the project want to create a pull request then others can comment and accept or decline the pull request
+
+                                                      CONTRIBUTE IN A OPEN SOURCE PROJECT
+
+*Search project name or what you want
+*Then search by clicking on all GitHub
+**Click on fork 
+**Copy the clone link
+**paste in git bash
+*Then do what we done in git clone
+*After someone pulling his contribution
+*Then owner of this project want to do a pull request 
